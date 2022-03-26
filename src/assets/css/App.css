@@ -1,0 +1,90 @@
+/* default and mobile specific styling */
+/* body style */
+body {
+  background: rgb(245, 245, 240);
+  overflow: hidden;
+}
+/* main padding */
+main {
+  padding: 1rem 0;
+}
+/* header style */
+h1 {
+  font-size: 30px;
+}
+/* style for nav links */
+nav,
+.projects-nav {
+  border-top: solid 2px;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+}
+/* image styly */
+img {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* headers style */
+h1,
+h2.home-header {
+  text-align: center;
+}
+/* text style */
+p {
+  padding: 10px;
+  font-size: 20px;
+}
+/* header text style */
+h2.about-header,
+h2.projects-header,
+h2.contact-header,
+.one,
+.two {
+  text-align: center;
+  font-size: 30px;
+}
+/* links style */
+link {
+  display: flex;
+  text-align: center;
+}
+
+/* tablet styles */
+@media only screen and (min-width: 650px) {
+  /* body style */
+  body {
+    background: rgb(8, 87, 79);
+  }
+  /* text style */
+  p {
+    font-size: 30px;
+    color: white;
+  }
+  /* header style */
+  h2 {
+    font-size: 40px;
+    color: white;
+  }
+}
+
+/* desktop styles */
+@media only screen and (min-width: 950px) {
+  /* body style */
+  body {
+    background: rgb(252, 222, 227);
+  }
+  /* text style */
+  p {
+    font-size: 40px;
+    color: rgb(73, 0, 146);
+  }
+  /* header style */
+  h2 {
+    font-size: 50px;
+    color: rgb(73, 0, 146);
+  }
+}
